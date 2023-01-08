@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="#A3715353"
+        app:cardCornerRadius="@dimen/_28sdp"
+        android:elevation="@dimen/_300sdp"
+
+        app:cardElevation="@dimen/_300sdp"
+        android:layout_margin="@dimen/_10sdp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#085B7E"
+        android:padding="@dimen/_10sdp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/searchtemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="32"
+            android:singleLine="true"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/searchtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cloudly"
+            android:singleLine="true"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/searchimage"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/searchlocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="California"
+        android:singleLine="true"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
